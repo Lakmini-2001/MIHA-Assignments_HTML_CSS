@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'Grandista';
+    src: url('Grandista.woff2') format('woff2'), url('Grandista.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.my-custom-text {
+    font-family: 'Grandista', sans-serif;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.login_box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+}
+
+.login_box form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.login_box form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.or {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9c9999;
+}
+
+.signup_box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.signup_box a {
+    color: #3897f0;
+    text-decoration: none;
+}
+
+/* Responsive styles */
+@media (max-width: 400px) {
+    .container {
+        max-width: 100%;
+    }
+}

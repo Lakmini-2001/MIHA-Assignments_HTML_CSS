@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Grandista';
+    src: url('Grandista.eot');
+    src: local('Grandista'),
+        url('Grandista.eot?#iefix') format('embedded-opentype'),
+        url('Grandista.woff2') format('woff2'),
+        url('Grandista.woff') format('woff'),
+        url('Grandista.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
